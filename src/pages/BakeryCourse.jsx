@@ -78,11 +78,11 @@ export default function BakeryCourse() {
         <Benefits />
 
         {/* 8. Course Curriculum Accordion */}
-        <Curriculum
+        {/* <Curriculum
           activeModuleIndex={activeModuleIndex}
           setActiveModuleIndex={setActiveModuleIndex}
           onEnrollClick={handleOpenEnroll}
-        />
+        /> */}
 
         {/* 9. Course Experience / Process */}
         <CourseProcess />
@@ -91,10 +91,10 @@ export default function BakeryCourse() {
         <Instructor />
 
         {/* 11. Student Creations / Gallery */}
-        <StudentGallery />
+        {/* <StudentGallery /> */}
 
         {/* 12. Student Testimonials */}
-        <Testimonials />
+        {/* <Testimonials /> */}
 
         {/* 13. Course Features */}
         {/* <CourseFeatures /> */}
@@ -103,7 +103,7 @@ export default function BakeryCourse() {
         {/* <TrustSection /> */}
 
         {/* 16. FAQ Section */}
-        <FAQ />
+        {/* <FAQ /> */}
 
         {/* 14. Pricing Section */}
         <Pricing onEnrollClick={handleOpenEnroll} />
