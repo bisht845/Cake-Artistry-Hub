@@ -1,0 +1,6 @@
+{
+  "name": "Bakery Academy — Professional Baking Course",
+  "description": "Learn professional baking techniques with our step-by-step online baking course. Master cakes, pastries, breads, desserts and cake decoration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

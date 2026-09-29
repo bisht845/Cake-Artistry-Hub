@@ -1,0 +1,235 @@
+import { COURSE_IMAGES } from '../assets/images/index.jsx';
+
+export const LEARNING_CARDS = [
+  {
+    id: 'learn-cakes',
+    category: 'Module 02 · Foundation & Structure',
+    title: 'Cake Making',
+    description: 'Learn how to prepare soft, moist cakes with professional techniques.',
+    image: COURSE_IMAGES.cakeMaking,
+    alt: 'Sliced moist vanilla and dark chocolate layer cake on ceramic plate',
+    moduleIndex: 1,
+    recipesCount: '12 Recipes',
+  },
+  {
+    id: 'learn-pastries',
+    category: 'Module 04 · Lamination & Doughs',
+    title: 'Pastries',
+    description: 'Master delicious pastries with proper dough preparation, shaping and baking.',
+    image: COURSE_IMAGES.pastries,
+    alt: 'Freshly baked golden flaky croissants on a warm walnut board',
+    moduleIndex: 3,
+    recipesCount: '10 Recipes',
+  },
+  {
+    id: 'learn-bread',
+    category: 'Module 04 · Wild & Yeasted Loaves',
+    title: 'Bread Making',
+    description: 'Understand fermentation, dough handling and professional bread-baking techniques.',
+    image: COURSE_IMAGES.artisanBread,
+    alt: 'Rustic artisan sourdough loaf with blistered crust and open crumb',
+    moduleIndex: 3,
+    recipesCount: '8 Recipes',
+  },
+  {
+    id: 'learn-decoration',
+    category: 'Module 03 · Finishing & Piping',
+    title: 'Cake Decoration',
+    description: 'Learn frosting, piping, layering and elegant cake decoration.',
+    image: COURSE_IMAGES.cakeDecoration,
+    alt: 'Pastry chef piping Swiss meringue buttercream rosettes onto a tiered cake',
+    moduleIndex: 2,
+    recipesCount: '10 Techniques',
+  },
+  {
+    id: 'learn-cookies',
+    category: 'Module 05 · Patisserie Confections',
+    title: 'Cookies & Desserts',
+    description: 'Create delicious cookies, brownies, macarons and other popular desserts.',
+    image: COURSE_IMAGES.cookiesDesserts,
+    alt: 'Assortment of French macarons, dark chocolate chunk cookies, and brownies',
+    moduleIndex: 4,
+    recipesCount: '14 Recipes',
+  },
+];
+
+export const COURSE_BENEFITS = [
+  {
+    number: '01',
+    title: 'Step-by-Step Lessons',
+    description:
+      'Follow easy-to-understand lessons designed for beginners and aspiring professionals.',
+    iconName: 'BookOpen',
+  },
+  {
+    number: '02',
+    title: 'Practical Techniques',
+    description: 'Learn techniques you can immediately apply in your own kitchen.',
+    iconName: 'ChefHat',
+  },
+  {
+    number: '03',
+    title: 'Professional Recipes',
+    description: 'Master carefully developed recipes with consistent results.',
+    iconName: 'Scale',
+  },
+  {
+    number: '04',
+    title: 'Learn at Your Own Pace',
+    description: 'Access your lessons whenever and wherever you want.',
+    iconName: 'Clock',
+  },
+  {
+    number: '05',
+    title: 'Certificate Included',
+    description: 'Receive a certificate after successfully completing the course.',
+    iconName: 'Award',
+  },
+  {
+    number: '06',
+    title: 'Lifetime Access',
+    description: 'Return to your lessons and recipes whenever you need them.',
+    iconName: 'Infinity',
+  },
+];
+
+export const COURSE_PROCESS_STEPS = [
+  {
+    number: '01',
+    title: 'Enroll',
+    description: 'Join the course and get instant access.',
+  },
+  {
+    number: '02',
+    title: 'Learn',
+    description: 'Watch practical, step-by-step lessons.',
+  },
+  {
+    number: '03',
+    title: 'Practice',
+    description: 'Follow the recipes and practice at home.',
+  },
+  {
+    number: '04',
+    title: 'Create',
+    description: 'Build beautiful bakery creations with confidence.',
+  },
+];
+
+export const STUDENT_GALLERY_ITEMS = [
+  {
+    id: 'gallery-1',
+    title: 'Chocolate Cake',
+    student: 'Created by Priya',
+    location: 'Mumbai',
+    category: 'Cakes',
+    moduleRef: 'Module 02 · Cakes & Sponges',
+    note: 'Three-tier dark Belgian chocolate sponge with salted caramel drip and Swiss meringue buttercream.',
+    image: COURSE_IMAGES.gallery.chocolateCake,
+    spanClass: 'md:col-span-2 md:row-span-2',
+    aspectClass: 'aspect-[4/3] md:aspect-auto md:h-full',
+  },
+  {
+    id: 'gallery-2',
+    title: 'Butter Croissants',
+    student: 'Created by Arjun',
+    location: 'Bengaluru',
+    category: 'Pastries',
+    moduleRef: 'Module 04 · Breads & Pastries',
+    note: '27-layer hand-laminated French butter croissants baked in a conventional home convection oven.',
+    image: COURSE_IMAGES.gallery.croissants,
+    spanClass: 'md:col-span-1',
+    aspectClass: 'aspect-[4/3]',
+  },
+  {
+    id: 'gallery-3',
+    title: 'Country Sourdough',
+    student: 'Created by Meera',
+    location: 'Hyderabad',
+    category: 'Bread',
+    moduleRef: 'Module 04 · Breads & Pastries',
+    note: '78% hydration naturally leavened country boule with caramelized crust and open crumb.',
+    image: COURSE_IMAGES.gallery.bread,
+    spanClass: 'md:col-span-1',
+    aspectClass: 'aspect-[4/3]',
+  },
+  {
+    id: 'gallery-4',
+    title: 'Buttercream Rosette Cake',
+    student: 'Created by Neha',
+    location: 'Delhi',
+    category: 'Cakes',
+    moduleRef: 'Module 03 · Frosting & Cake Decoration',
+    note: 'Silky vanilla bean buttercream with hand-piped floral rosettes and smooth sharp edges.',
+    image: COURSE_IMAGES.gallery.cupcakes,
+    spanClass: 'md:col-span-1',
+    aspectClass: 'aspect-[4/3]',
+  },
+  {
+    id: 'gallery-5',
+    title: 'Salted Caramel Macarons',
+    student: 'Created by Rohan',
+    location: 'Pune',
+    category: 'Cookies',
+    moduleRef: 'Module 05 · Cookies & Desserts',
+    note: 'French meringue shells filled with espresso ganache and sea-salt caramel buttercream.',
+    image: COURSE_IMAGES.gallery.macarons,
+    spanClass: 'md:col-span-1',
+    aspectClass: 'aspect-[4/3]',
+  },
+  {
+    id: 'gallery-6',
+    title: 'Layered Vanilla & Ganache Sponge',
+    student: 'Created by Kavita',
+    location: 'Chennai',
+    category: 'Cakes',
+    moduleRef: 'Module 02 · Cakes & Sponges',
+    note: 'Tender vanilla bean sponge layered with dark couverture ganache and roasted hazelnut praline.',
+    image: COURSE_IMAGES.gallery.spongeCake,
+    spanClass: 'md:col-span-1',
+    aspectClass: 'aspect-[4/3]',
+  },
+];
+
+export const COURSE_FEATURES_LIST = [
+  {
+    title: '30+ Video Lessons',
+    detail: 'Multi-angle 4K overhead and side-view lessons showing every texture cue.',
+    iconName: 'PlayCircle',
+  },
+  {
+    title: '50+ Recipes',
+    detail: 'Tested patisserie formulations with gram weights and cup conversions.',
+    iconName: 'BookMarked',
+  },
+  {
+    title: 'Downloadable Recipe Guides',
+    detail: 'Print-ready PDF workbooks with scaling calculators and oven notes.',
+    iconName: 'FileDown',
+  },
+  {
+    title: 'Certificate of Completion',
+    detail: 'Signed academy credential verifying your professional baking training.',
+    iconName: 'Award',
+  },
+  {
+    title: 'Lifetime Access',
+    detail: 'Unlimited on-demand access to all lessons and future recipe additions.',
+    iconName: 'Infinity',
+  },
+  {
+    title: 'Mobile-Friendly Learning',
+    detail: 'Follow step-by-step chapters effortlessly on phone, tablet, or laptop.',
+    iconName: 'Smartphone',
+  },
+  {
+    title: 'Beginner-Friendly Instructions',
+    detail: 'Zero jargon—every technique is explained clearly from first principles.',
+    iconName: 'Sparkles',
+  },
+  {
+    title: 'Practical Baking Techniques',
+    detail: 'Real-world troubleshooting for domestic ovens, humidity, and ingredients.',
+    iconName: 'Utensils',
+  },
+];
