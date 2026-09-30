@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar.jsx';
 import Hero from '../components/Hero.jsx';
 import TrustBar from '../components/TrustBar.jsx';
@@ -23,6 +23,12 @@ export default function BakeryCourse() {
     isOpen: false,
     mode: 'enroll',
   });
+  useEffect(() => {
+  setModalState({
+    isOpen: true,
+    mode: 'enroll',
+  });
+}, []);
 
   const handleOpenEnroll = () => {
     setModalState({ isOpen: true, mode: 'enroll' });
