@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import logo from "../assets/images/logocake.png"
+import logo from "../assets/images/logo.png"
 const NAV_LINKS = [
   { label: 'Home', href: '#home' },
   { label: 'Course', href: '#course' },
@@ -81,7 +81,7 @@ export default function Navbar({ onEnrollClick }) {
         <img
           src={logo}
           alt="Cake Artistry Hub"
-          className="w-[180px] lg:w-[190px] h-auto max-h-[80px] object-contain"
+          className="w-[250px] lg:w-[200px] h-auto max-h-[80px] object-contain"
         />
       </a>
 
